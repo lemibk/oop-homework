@@ -1,7 +1,7 @@
 public class Student {
 private String name;
   private  int id;
-   private int [] grades;
+   private static int[] grades;
 
     public Student(String name, int id, int[] grades) {
         this.name = name;
